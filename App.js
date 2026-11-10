@@ -59,12 +59,12 @@ export default function App() {
   //PARTE VISIBLE DE LA APP
   return (
     <View style={styles.contenedor}>
-      {/* CONTENIDO */}
+      
       <View style={styles.contenido}>
         <Text style={styles.titulo}>🍎AgroPedidos Mosquera🍎</Text>
         <Text style={styles.bienvenida}>🍏¡Bienvenido a AgroPedidos! Registre sus pedidos aquí.🍏</Text>
 
-        {/* TARJETA BLANCA */}
+        
         <View style={styles.tarjeta}>
           <Text style={styles.etiqueta}>🍏Nombre del cliente</Text>
           <TextInput
